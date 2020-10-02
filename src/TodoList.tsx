@@ -1,16 +1,6 @@
 import React from 'react';
 import './App.css';
-import {
-  BooleanField,
-  BooleanInput,
-  Datagrid,
-  EditButton,
-  Filter,
-  List,
-  TextField,
-  TextInput,
-  useTranslate,
-} from 'react-admin';
+import { BooleanField, Datagrid, EditButton, Filter, List, TextField, TextInput, useTranslate, } from 'react-admin';
 import { Chip, makeStyles } from '@material-ui/core';
 
 // @ts-ignore
